@@ -1,5 +1,5 @@
-from schemas.contato import ContatoSchema
-from schemas.passageiro import PassageiroSchema, PassageiroBuscaSchema, PassageiroViewSchema, \
-                            ListagemPassageirosSchema, PassageiroUpdateSchema, PassageiroDelSchema, apresenta_passageiros, \
-                            apresenta_passageiro
+from schemas.comentario import ComentarioSchema
+from schemas.produto import ProdutoSchema, ProdutoBuscaSchema, ProdutoViewSchema, \
+                            ListagemProdutosSchema, ProdutoUpdateSchema, ProdutoDelSchema, apresenta_produtos, \
+                            apresenta_produto, apresenta_produtos
 from schemas.error import ErrorSchema
