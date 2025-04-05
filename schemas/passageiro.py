@@ -72,11 +72,18 @@ def apresenta_passageiro(passageiro: Passageiro):
     """ Retorna uma representação do passageiro seguindo o schema definido em
         PassageiroViewSchema.
     """
+    contatos = []
+    for contato in passageiro.contatos:
+        contatos.append({
+            "telefone": contato.telefone,
+            "tipo": contato.tipo,
+        })
+
     return {
         "id": passageiro.id,
         "nome": passageiro.nome,
         "cpf": passageiro.cpf,
         "peso": passageiro.peso,
         "total_contatos": len(passageiro.contatos),
-        "contatos": [{"texto": c.texto} for c in passageiro.contatos]
+        "contatos": contatos
     }

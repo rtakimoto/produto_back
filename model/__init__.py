@@ -5,8 +5,8 @@ import os
 
 # importando os elementos definidos no modelo
 from model.base import Base
-from passageiros_back.model.contato import Contato
-from passageiros_back.model.passageiro import Passageiro
+from model.contato import Contato
+from model.passageiro import Passageiro
 
 db_path = "database/"
 # Verifica se o diretorio não existe
