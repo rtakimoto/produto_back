@@ -28,3 +28,31 @@ NameError: name 'produto_nome' is not defined. Did you mean: 'produto_tag'?
 [2025-03-26 20:30:33,059] INFO _log() L225  127.0.0.1 - - [26/Mar/2025 20:30:33] "[35m[1mPUT /produto HTTP/1.1[0m" 500 - - call_trace=/home/takimoto/sample_FullStack/env_dev/lib/python3.12/site-packages/werkzeug/_internal.py L225 
 [2025-03-26 20:31:12,632] INFO _log() L225   * Detected change in '/home/takimoto/sample_FullStack/desenvolvimento-full-stack-main/desenvolvimento-full-stack-basico/aula-3/meu_app_api/app.py', reloading - call_trace=/home/takimoto/sample_FullStack/env_dev/lib/python3.12/site-packages/werkzeug/_internal.py L225 
 [2025-03-26 20:31:50,243] INFO _log() L225  127.0.0.1 - - [26/Mar/2025 20:31:50] "PUT /produto HTTP/1.1" 200 - - call_trace=/home/takimoto/sample_FullStack/env_dev/lib/python3.12/site-packages/werkzeug/_internal.py L225 
+[2025-04-05 13:04:38,732] INFO _log() L97   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.201.6:5000 - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:04:38,734] INFO _log() L97   [33mPress CTRL+C to quit[0m - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:04:53,012] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:04:53] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:04:53,023] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:04:53] "GET /openapi/ HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:06:45,556] INFO _log() L97   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.201.6:5000 - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:06:45,556] INFO _log() L97   [33mPress CTRL+C to quit[0m - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:10,631] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:10] "GET /openapi/ HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:13,024] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:13] "GET /openapi/ HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:29,853] INFO _log() L97   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.201.6:5000 - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:29,853] INFO _log() L97   [33mPress CTRL+C to quit[0m - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:39,355] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:39] "GET /openapi/ HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:39,367] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:39] "GET /openapi/swagger/images/swagger.svg HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:40,996] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:40] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:41,328] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:41] "GET /openapi/swagger/css/swagger-ui.css HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:41,333] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:41] "GET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:41,334] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:41] "GET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:41,799] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:41] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:07:41,813] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:07:41] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
+[2025-04-05 13:20:46,804] INFO _log() L97   127.0.0.1 - - [05/Apr/2025 13:20:46] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/home/takimoto/MVP/produto/env_produto/lib/python3.12/site-packages/werkzeug/_internal.py L97  
