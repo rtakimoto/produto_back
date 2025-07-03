@@ -1,8 +1,6 @@
 # Minha API
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
-
-O objetivo aqui é ilutsrar o conteúdo apresentado ao longo das três aulas da disciplina.
+O objetivo é criar um MVP para o cadastro e edição de passageiros para um voo.
 
 ---
 ## Como executar 
